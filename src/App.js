@@ -8,8 +8,8 @@ const App = () => {
     // Create coins variable and set to empty array
     const [coins, updateCoins] = useState([]);
 
-    // Define function to all API
-    async function fetchCoins() {
+    // Define function to call API
+    const fetchCoins = async() =>  {
       const data = await API.get('cryptoapi', '/coins')
       updateCoins(data.coins)
     }
