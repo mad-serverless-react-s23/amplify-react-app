@@ -6,3 +6,7 @@ Helpful resources:
 - Amplify CLI documentation: https://docs.amplify.aws/cli
 - More details on this folder & generated files: https://docs.amplify.aws/cli/reference/files
 - Join Amplify's community: https://amplify.aws/community/
+
+Updates for Spring 2023:
+
+1. In src/index.js: import {Amplify} from 'aws-amplify';
